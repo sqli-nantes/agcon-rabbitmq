@@ -1,7 +1,7 @@
 # Test de Docker de brocker rabbitmq
 
 sudo -i
-export export AWS_PROJECT
+export AWS_PROJECT = agcon-rabbitmq
 
 ### CREATION DU GROUPE ###
 aws ec2 create-security-group --group-name docksg$AWS_PROJECT --description dock-security-group-$AWS_PROJECT
